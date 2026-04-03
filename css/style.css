@@ -42,6 +42,36 @@ a:hover {
 /* main content */
 
 .container {
+    display: flex;
+    gap: 3rem;
+    padding: 2rem 2.5rem;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+#post-container {
+    flex: 3 1 0;
+}
+
+.post {
+    margin-bottom: 2.5rem;
+}
+
+.post img {
+    max-width: 657px;
+    margin-bottom: 1rem;
+}
+
+.title,
+.description,
+.author{
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.author {
+    color: crimson;
 }
